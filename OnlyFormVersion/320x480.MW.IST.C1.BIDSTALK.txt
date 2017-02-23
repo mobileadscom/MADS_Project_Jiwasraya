@@ -1,0 +1,18 @@
+<!--
+Rich Media Ad Tag
+Platform: Bidstalk
+RM Type: NON-MRAID
+Ad Format: Interstitial
+-->
+<script type='text/javascript'>
+var rma ={
+'campaignId':'8f7faac338c9a2fd33da0b2d26903b85',
+'secure':true,
+'cb':'{CACHEBUSTER}',
+'trackImp':'https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=20144997&PluID=0&ord=[timestamp]&rtu=-1',
+'cte':'https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=20144997&PluID=0&ord=[timestamp]',
+'customize':{'custTracker':['https://www.cdn.serving1.net/a/analytic.htm?uid=0&isNew={{isNew}}&referredUrl={{referredUrl}}&rmaId={{rmaId}}&domainId=0&pageLoadId={{pageLoadId}}&userId={{userId}}&pubUserId=0&campaignId={{campaignId}}&browser={{browser}}&os={{os}}&domain={{domain}}&callback=trackSuccess&callback=trackSuccess&type={{rmatype}}&tt={{rmatt}}&value={{rmavalue}}', '{CLICK_URL}']},
+'tags':{'dsp':'bidstalk','exchange':'{EXCHANGE_NAME}','inventory':'{APP_NAME}','uniqueId':'{DEVICE_PLATFORM_ID}'}
+};
+</script>
+<img src='https://www.cdn.serving1.net/t?i=8f7faac338c9a2fd33da0b2d26903b85&cb={CACHEBUSTER}&dsp=bidstalk&exchange={EXCHANGE_NAME}&inventory={APP_NAME}&uniqueId={DEVICE_PLATFORM_ID}&customId=noblock' width='1px' height='1px' style='display:none' onerror="this.onerror=null;this.src='https://track.richmediaads.com/t?i=8f7faac338c9a2fd33da0b2d26903b85&cb={CACHEBUSTER}&dsp=bidstalk&exchange={EXCHANGE_NAME}&inventory={APP_NAME}&uniqueId={DEVICE_PLATFORM_ID}&customId=adblock'" /><script type='text/javascript' src='https://cdn.serving1.net/general.js'></script>
